@@ -1,0 +1,59 @@
+.welcomeBody{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    color:#ffffff;
+    background-image: url("./../img/hanna.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.infoContainerWelcome{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin: 0;
+  padding: 1% 7%;
+  background-color: #f2f2f2;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  left: 18%;
+}
+
+.infoContainerWelcome h3{
+  color: #344346;
+  font-size:calc(0.6vw + 2vh);
+  margin: 0;
+  text-align: center;
+}
+
+.infoContainerWelcome h1{
+  font-size:calc(1vw + 2.9vh);
+  margin: 0;
+	text-decoration: none;
+  text-align: center;
+}
+
+.welcomeBody img:hover{
+    bottom:0;
+}
+
+.welcomeBody img {
+    position: absolute;
+    width: calc(4vw + 5vh);
+    height: calc(4vw + 5vh);
+    cursor: pointer;
+    bottom: 4%;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    transition: 0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -o-transition:0.5s;
+    margin: auto;
+}

@@ -1,0 +1,51 @@
+.serviceBody{
+  margin: -15px 0;
+  height: auto;
+  margin-top: 30px;
+}
+.serviceContainer{
+  display: inline-block;
+  white-space: nowrap;
+  width: 100%;
+  scroll-behavior: smooth;
+  padding: 25px 0;
+  overflow-x: scroll;
+  overflow-y: visible;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.serviceContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.service{
+  display: inline-block;
+  position: relative;
+  vertical-align:top;
+  margin: 20px;
+}
+
+.arrowsService{
+  position: absolute;
+  bottom: 222px;
+  width: 64px;
+  cursor: pointer;
+  z-index: 3;
+}
+#firstArrowService{
+    left:10px;
+}
+#secondArrowService{
+     right:10px;
+}
+
+.serviceBody h1{
+margin: 0px 10px;
+}
+
+.serviceBody h3{
+  margin: 20px 10px;
+  margin-bottom: 0;
+  color: #344346;
+}

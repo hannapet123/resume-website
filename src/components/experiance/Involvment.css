@@ -1,0 +1,60 @@
+.involvementBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sectionContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.CM h2{
+	color: rgb(235, 176, 14);
+}
+
+.mafu h2{
+	color: rgb(235, 176, 14);
+}
+
+.CM h4{
+	color: #405830;
+}
+
+.mafu h4{
+	color: #405830;
+}
+
+.CM p{
+	color: black;
+}
+
+.mafu p{
+	color: black;
+}
+
+.CM, .mafu {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: white;
+}
+
+.CM img{
+	width: 170px;
+	height: auto;
+}
+
+.CMtext, .mafutext {
+	position: relative;
+  	transform: none;
+}
+
+
+.mafu img{
+	width: 400px;
+	height: auto;
+}
+
+ 
