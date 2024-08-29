@@ -15,7 +15,7 @@ class Resume extends React.Component {
                     education: {
                         image:education_logo,
                         title: "Education",
-                        examples: ["M.Sc. Student in Industrial Engineering and Management", "NUS Exchange semester"],
+                        examples: ["Industrial Engineering & Management", "NUS Exchange semester"],
                         examplesYear: ["Aug 2021 - Jun 2026", "Aug 2023 - Dec 2023"],
                         color: "rgb(0, 76, 153)",
                         subColor:"rgba(0, 76, 153, 0.7)"
@@ -23,8 +23,8 @@ class Resume extends React.Component {
                     engJobs: {
                         image:job_logo,
                         title: "Professional Experience",
-                        examples: ["Market analyst Intern", "Software engineer Intern", "Lift host", "Shop assistant", "Waitress", ],
-                        examplesYear: ["Jun 2023 - Jul 2023", "Aug 2020 - Dec 2020", "Dec 2020 - May 2021", "2020 - 2021", "2017 - 2019"],
+                        examples: ["AI for Impact Intern", "Market analyst Intern", "Software engineer Intern", "Lift host", "Shop assistant", "Waitress", ],
+                        examplesYear: ["May 2024 - Sep 2024", "Jun 2023 - Jul 2023", "Aug 2020 - Dec 2020", "Dec 2020 - May 2021", "2020 - 2021", "2017 - 2019"],
                         color: "rgb(0, 77, 98)",
                         subColor: "rgba(0, 77, 98, 0.7)"
                     },

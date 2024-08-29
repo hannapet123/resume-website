@@ -17,7 +17,7 @@
      display: inline-block;
      margin-right: 10px;
    }
-   .contactBody p{
+   .contactBody p, .email-link {
      display: inline-block;
      height: 32px;
      margin: 0;
@@ -26,7 +26,14 @@
      max-width: 900px;
      font-size:calc(0.4vw + 1.5vh);
      margin-right: 20px;
+     color: white; 
+    text-decoration: none;
    }
+
+   .email-link:hover {
+    color: white; 
+    text-decoration: none; 
+   } 
    
    .withText{
        display: inline-block;

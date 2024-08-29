@@ -44,6 +44,7 @@
 .CM img{
 	width: 170px;
 	height: auto;
+	margin-top: 5px;
 }
 
 .CMtext, .mafutext {

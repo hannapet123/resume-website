@@ -12,16 +12,27 @@ import abbekas_logo from "./../../img/abbekas.jpeg"
 import abbekas_back from "./../../img/abbekas_back.jpg"
 import arrow_back from "./../../img/arrow_back.svg"
 import arrow_forward from "./../../img/arrow_forward.svg"
+import ai from "./../../img/ai.png"
+import aired from "./../../img/aired.png"
 import StandardCard from "./../StandardCard.js";
 
 class EngineeringJobs extends React.Component {
 	constructor(props){
 		super(props)
 		this.state = {
+			ai:{
+				year:"2024, summer",
+				title:"AI for Impact Intern at AI Sweden",
+				description:"Developed an AI-powered mobile app tailored for the Red Cross as the client",
+				image: {
+				  front: ai,
+				  back: aired
+				}
+			},
 			corporate:{
 				year:"2023, summer",
 				title:"Market analyst Intern at Allicon",
-				description:"Gather information, analyze, and recommend a market for expansion outside Sweden",
+				description:"Gathered information, analyzed, and recommended a market for expansion outside Sweden",
 				image: {
 				  front: allicon,
 				  back: kontor
@@ -30,7 +41,7 @@ class EngineeringJobs extends React.Component {
 			internet:{
 				year:"Aug - Dec 2020",
 				title:"Software engineer Intern at Internetstiftelsen",
-				description:"Automate the process of setting up virtual servers in AWS. Certificate: AWS Certified Cloud Practitioner",
+				description:"Automated the process of setting up virtual servers in AWS. Certificate: AWS Certified Cloud Practitioner",
 				image: {
 				  front: internetstiftelsen,
 				  back: internetkontor
@@ -48,7 +59,7 @@ class EngineeringJobs extends React.Component {
 			willys:{
 				year:"2020 - 2021, weekends and summers",
 				title:"Shop assistant at Willys",
-				description:"Pick and pack groceries for e-commerce",
+				description:"Picked and packad groceries for e-commerce",
 				image: {
 				  front: willys,
 				  back: mataffar
@@ -119,6 +130,9 @@ render() {
 			<h1>Professional Experience</h1>
 			<img alt="" className="arrowsService" id="firstArrowService" src={arrow_back} onClick={() => this.scrollSide(-1)} style = {this.state.arrowStyle.left}/>
 			<div className="serviceContainer" ref={this.blocksContainerRef} >
+				<div className="service">
+					<StandardCard info={this.state.ai} height={"430px"} />
+				</div>
 				<div className="service">
 					<StandardCard info={this.state.corporate} height={"430px"}/>
 				</div>
