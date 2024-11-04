@@ -6,56 +6,59 @@
 
 .sectionContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    gap: 20px; /* Adds space between the boxes */
 }
 
-.CM h2{
-	color: rgb(235, 176, 14);
+/* Each box (CM, mafu, ai) aligned side by side on larger screens */
+.CM, .mafu, .ai {
+    flex: 1 1 30%; /* Each takes roughly a third of the row on larger screens */
+    max-width: 30%; /* Ensures they don’t exceed a third of the row */
+    background-color: white;
+    padding: 20px 15px; /* Adds vertical and side padding */
+    box-sizing: border-box; /* Includes padding in the box dimensions */
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.mafu h2{
-	color: rgb(235, 176, 14);
+/* Specific styling for each section's images */
+.CM img {
+    width: 170px;
+    height: auto;
+    margin-top: 5px;
 }
 
-.CM h4{
-	color: #405830;
+.mafu img {
+    width: 400px;
+    height: auto;
 }
 
-.mafu h4{
-	color: #405830;
+.CMtext, .mafutext, .aitext {
+    position: relative;
+    transform: none;
 }
 
-.CM p{
-	color: black;
+/* Text color styling */
+.CM h2, .mafu h2, .ai h2 {
+    color: rgb(235, 176, 14); /* Yellow color for h2 headers */
 }
 
-.mafu p{
-	color: black;
+.CM h4, .mafu h4, .ai h4 {
+    color: #405830; /* Green color for h4 headers */
 }
 
-.CM, .mafu {
-	position: relative;
-	display: inline-block;
-	vertical-align: middle;
-	background-color: white;
+.CM, .mafu, .ai p {
+    color: black;
 }
 
-.CM img{
-	width: 170px;
-	height: auto;
-	margin-top: 5px;
+/* Responsive media query for stacking elements vertically on smaller screens */
+@media (max-width: 800px) {
+    .CM, .mafu, .ai {
+        flex: 1 1 100%; /* Each box takes full width on small screens */
+        max-width: 100%; /* Ensures they stack vertically */
+        padding: 20px 15px; /* Explicit padding on smaller screens */
+        margin: 10px 0; /* Optional: Adds vertical spacing between stacked boxes */
+    }
 }
-
-.CMtext, .mafutext {
-	position: relative;
-  	transform: none;
-}
-
-
-.mafu img{
-	width: 400px;
-	height: auto;
-}
-
- 

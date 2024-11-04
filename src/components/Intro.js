@@ -32,7 +32,7 @@ class Intro extends React.Component {
             <div className="infoContainerWelcome" ref={this.refMeText}>
               <h1>Hello!</h1>
               <h3> 
-                I am Hanna. An engineer who thrives on tackling difficult math and programming problems, as well as organizing and participating in student events. I approach my work with focus and great dedication.
+              M.Sc. student in Industrial Engineering and Management, specializing in both Machine Learning and Finance. Fueled by a passion for continuous learning, I seek opportunities for growth in the fast-paced tech sector. With a foundation in business and problem solving, I'm keenly interested in leveraging AI and ML to innovate and address complex problems in today's world.
               </h3>
             </div>
             </div>

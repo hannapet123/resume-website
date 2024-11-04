@@ -2,6 +2,7 @@ import React from 'react';
 import './Involvment.css';
 import CMlogo from "./../../img/CMlogo.png";
 import mafulogo from "./../../img/mafu.jpeg";
+import ailogo from "./../../img/liuai.png";
 
 class Involvement extends React.Component {
 	constructor(props){
@@ -33,18 +34,26 @@ class Involvement extends React.Component {
 	}
 
 	render() {
-		var boxStyle ={
-			height: this.state.boxSize/1.3+"vw",
-			width: this.state.boxSize+"%",
-			fontSize: this.state.boxSize/30+"vw",
-            lineHeight: this.state.boxSize/30+"vw",
+		var boxStyle = {
+			width: this.state.boxSize + "%",
+			fontSize: this.state.boxSize / 30 + "vw",
+			lineHeight: this.state.boxSize / 30 + "vw",
 		}
-
 		return (
 			<div className="involvementBody">
 				<div>
 					<h1>Extracurricular</h1>
 					<div className="sectionContainer">
+					<div className="ai" style={boxStyle}>
+							<img src={ailogo} alt ="AI logo"/>
+							<div className="aitext"> 
+								<h2 style={{fontSize:this.state.boxSize/30+"vw"}}>Business Relationship Team</h2>
+								<h4 style={{fontSize:this.state.boxSize/40+"vw"}}>LiU AI Society, Linköping University</h4>
+								<h4 style={{fontSize:this.state.boxSize/40+"vw"}}>September 2024 - present</h4>
+								<p style={{fontSize:this.state.boxSize/40+"vw"}}>LiU AI Society organizes events that connect students with companies in the fields of AI and machine learning.</p>
+								<a href="https://liuais.com/" target="_blank" rel="noopener noreferrer" style={{fontSize:this.state.boxSize/40+"vw"}}>liuais.com</a>
+							</div>
+						</div>
 						<div className="CM" style={boxStyle}>
 							<img src={CMlogo} alt ="CM logo"/>
 							<div className="CMtext"> 
@@ -62,7 +71,7 @@ class Involvement extends React.Component {
 								<h2 style={{fontSize:this.state.boxSize/30+"vw"}}>Hackathon project manager</h2>
 								<h4 style={{fontSize:this.state.boxSize/40+"vw"}}>Marketing Comittee, Linköping University</h4>
 								<h4 style={{fontSize:this.state.boxSize/40+"vw"}}>September 2021 - June 2022</h4>
-								<p style={{fontSize:this.state.boxSize/40+"vw"}}>Organizes promotion events for high school students.</p>
+								<p style={{fontSize:this.state.boxSize/40+"vw"}}>Mafu organizes promotion events for high school students.</p>
 							</div>
 						</div>
 					</div>
