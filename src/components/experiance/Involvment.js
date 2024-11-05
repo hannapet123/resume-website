@@ -69,9 +69,9 @@ class Involvement extends React.Component {
 							<img src={mafulogo} alt ="Mafu logo"/>
 							<div className="mafutext"> 
 								<h2 style={{fontSize:this.state.boxSize/30+"vw"}}>Hackathon project manager</h2>
-								<h4 style={{fontSize:this.state.boxSize/40+"vw"}}>Marketing Comittee, Linköping University</h4>
+								<h4 style={{fontSize:this.state.boxSize/40+"vw"}}>Marketing Committee, Linköping University</h4>
 								<h4 style={{fontSize:this.state.boxSize/40+"vw"}}>September 2021 - June 2022</h4>
-								<p style={{fontSize:this.state.boxSize/40+"vw"}}>Mafu organizes promotion events for high school students.</p>
+								<p style={{fontSize:this.state.boxSize/40+"vw"}}>The Marketing Committee organizes promotion events for high school students.</p>
 							</div>
 						</div>
 					</div>

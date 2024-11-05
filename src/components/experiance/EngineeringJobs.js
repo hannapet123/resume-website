@@ -13,7 +13,7 @@ import abbekas_back from "./../../img/abbekas_back.jpg"
 import arrow_back from "./../../img/arrow_back.svg"
 import arrow_forward from "./../../img/arrow_forward.svg"
 import ai from "./../../img/ai.png"
-import aired from "./../../img/aired.png"
+import presentation from "./../../img/presentation.png"
 import StandardCard from "./../StandardCard.js";
 
 class EngineeringJobs extends React.Component {
@@ -26,7 +26,7 @@ class EngineeringJobs extends React.Component {
 				description:"Developed an AI-powered mobile app tailored for the Red Cross as the client",
 				image: {
 				  front: ai,
-				  back: aired
+				  back: presentation
 				}
 			},
 			corporate:{

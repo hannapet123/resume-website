@@ -31,8 +31,8 @@ class Resume extends React.Component {
 					involvement: {
                         image:extracurricular_logo,
                         title: "Extracurricular",
-                        examples: ["Clubmästeriet", "Marketing Comittee"],
-                        examplesYear: ["Jun 2022 - Jun 2023", "Sep 2021 - Jun 2022"],
+                        examples: ["LiU AI Society", "Clubmästeriet", "Marketing Committee"],
+                        examplesYear: ["Sep 2024 - present", "Jun 2022 - Jun 2023", "Sep 2021 - Jun 2022"],
                         color: "rgb(0, 77, 42)",
                         subColor: "rgba(0, 77, 42, 0.7)"
                     },
