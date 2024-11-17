@@ -23,7 +23,8 @@ class EngineeringJobs extends React.Component {
 			ai:{
 				year:"2024, summer",
 				title:"AI for Impact Intern at AI Sweden",
-				description:"Developed an AI-powered mobile app tailored for the Red Cross as the client",
+				description: "Developed an AI-powered mobile app tailored for the Red Cross as the client.",
+    			link: "https://www.youtube.com/watch?v=qFWhLo0sWfQ&t=3642s",
 				image: {
 				  front: ai,
 				  back: presentation
