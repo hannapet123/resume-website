@@ -31,8 +31,8 @@ class Intro extends React.Component {
             </div>
             <div className="infoContainerWelcome" ref={this.refMeText}>
               <h1>Hello!</h1>
-              <h3> 
-              M.Sc. student in Industrial Engineering and Management, specializing in Machine Learning. Fueled by a passion for continuous learning, I seek opportunities for growth in the fast-paced tech sector. With a foundation in business and problem solving, I'm keenly interested in leveraging AI and ML to innovate and address complex problems in today's world.
+              <h3> My name is Hanna, and I am currently in my fourth year pursuing an M.Sc. degree in Industrial Engineering and Management at Linköping University, with dual master profiles in Machine Learning and Finance.
+              
               </h3>
             </div>
             </div>

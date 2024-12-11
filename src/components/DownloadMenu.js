@@ -2,7 +2,7 @@ import React from 'react';
 import './../styles/DownloadMenu.css';
 import transcript from "./../downloads/transcript.pdf"
 import resume from "./../downloads/resume.pdf"
-import CoverLetter from "./../downloads/coverletter.pdf"
+//import CoverLetter from "./../downloads/coverletter.pdf"
 
 class DownloadMenu extends React.Component {
     constructor(props){
@@ -79,9 +79,7 @@ class DownloadMenu extends React.Component {
                         <a href={resume} title="Download" download="Hanna Petersson - Resume">Resume</a>
                         <br/>
                         <a href={transcript} title="Download" download="Hanna Petersson - transcript">University transcript</a>
-                        <br/>
-                        <a href={CoverLetter} title="Download" download="Hanna Petersson - Cover Letter">Cover Letter</a>
-                        <br/>
+                        
                         <br/>
                         </div>
                     </div>
