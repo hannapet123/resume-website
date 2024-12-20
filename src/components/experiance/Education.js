@@ -45,7 +45,7 @@ class Education extends React.Component {
 				<div style={boxStyle}>
 					<div className="bigCard">
 						<h3>M.Sc. Student in Industrial Engineering and Management</h3>
-						<h4>Linköping University<br />Master profile: Machine Learning<br />Technical specialization: Electrical Engineering<br />Aug 2021 - Jun 2026<br />GPA: 4.95 [5.0]</h4>
+						<h4>Linköping University<br />Master profile: Machine Learning<br />Technical specialization: Electrical Engineering<br />Aug 2021 - Jun 2026<br />GPA: 4.96 [5.0]</h4>
 					</div>
 					<div className="bigCard">
 						<h3>Exchange semester</h3>
