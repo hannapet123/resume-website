@@ -15,11 +15,21 @@ import arrow_forward from "./../../img/arrow_forward.svg"
 import ai from "./../../img/ai.png"
 import presentation from "./../../img/presentation.png"
 import StandardCard from "./../StandardCard.js";
+import bcg from "./../../img/bcg.jpg"
+import consulting from "./../../img/consulting.png"
 
 class EngineeringJobs extends React.Component {
 	constructor(props){
 		super(props)
 		this.state = {
+			bcg:{
+				year:"Feb - Mar 2025",
+				title:"Visiting Associate at BCG",
+				image: {
+				  front: bcg,
+				  back: consulting
+				}
+			},
 			ai:{
 				year:"2024, summer",
 				title:"AI for Impact Intern at AI Sweden",
@@ -131,6 +141,9 @@ render() {
 			<h1>Professional Experience</h1>
 			<img alt="" className="arrowsService" id="firstArrowService" src={arrow_back} onClick={() => this.scrollSide(-1)} style = {this.state.arrowStyle.left}/>
 			<div className="serviceContainer" ref={this.blocksContainerRef} >
+				<div className="service">
+					<StandardCard info={this.state.bcg} height={"430px"} />
+				</div>
 				<div className="service">
 					<StandardCard info={this.state.ai} height={"430px"} />
 				</div>

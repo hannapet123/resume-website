@@ -23,8 +23,8 @@ class Resume extends React.Component {
                     engJobs: {
                         image:job_logo,
                         title: "Professional Experience",
-                        examples: ["AI for Impact Intern", "Market analyst Intern", "Software engineer Intern", "Lift host", "Shop assistant", "Waitress", ],
-                        examplesYear: ["May 2024 - Sep 2024", "Jun 2023 - Jul 2023", "Aug 2020 - Dec 2020", "Dec 2020 - May 2021", "2020 - 2021", "2017 - 2019"],
+                        examples: ["Visiting Associate","AI for Impact Intern", "Market analyst Intern", "Software engineer Intern", "Lift host", "Shop assistant", "Waitress", ],
+                        examplesYear: ["Feb 2025 - Mar 2025", "May 2024 - Sep 2024", "Jun 2023 - Jul 2023", "Aug 2020 - Dec 2020", "Dec 2020 - May 2021", "2020 - 2021", "2017 - 2019"],
                         color: "rgb(0, 77, 98)",
                         subColor: "rgba(0, 77, 98, 0.7)"
                     },
